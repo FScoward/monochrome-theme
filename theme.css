@@ -33,6 +33,23 @@ svg * {
 	margin: var(--size-2-1) calc(var(--size-2-1) * -1);
 }
 
-.theme-dark {
+.theme-dark, .theme-light {
 	--color-base-00: #f5f5f5;
+	--color-base-10: #f4f4f4;
+	--color-base-100: #1e1e1e;
+	--background-primary: #ebebeb;
+	--background-secondary: #d6d6d6;
+
+	  /* Accent HSL values */
+	  --accent-h: 0;
+	  --accent-s: 0%;
+	  --accent-l: 20%;
+
+
+	  --input-radius: 10px;
+
+
+	  --text-on-accent-inverted: var(--color-base-00);
+
+
 }
